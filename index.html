@@ -3,33 +3,48 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>🍔 Burguer Kitty 🍔</title>
+<title>Burguer Kitty</title>
 
 <style>
 body{
     margin:0;
     font-family: Arial, sans-serif;
     background:#fff0f5;
+    color:#333;
 }
 
 header{
     background:#ff69b4;
     color:white;
     text-align:center;
-    padding:30px;
+    padding:40px;
 }
 
 header h1{
-    font-size:45px;
+    margin:0;
+    font-size:50px;
+}
+
+nav{
+    background:#ff1493;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
 }
 
 section{
-    width:80%;
+    width:85%;
     margin:20px auto;
     background:white;
-    padding:20px;
+    padding:25px;
     border-radius:15px;
-    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    box-shadow:0 0 10px rgba(0,0,0,0.15);
 }
 
 h2{
@@ -52,21 +67,26 @@ th{
     color:white;
 }
 
-footer{
-    background:#ff69b4;
-    color:white;
-    text-align:center;
-    padding:15px;
-    margin-top:20px;
+ul li{
+    margin:8px 0;
 }
 
 .boton{
     display:inline-block;
     background:#ff1493;
     color:white;
-    padding:10px 20px;
-    border-radius:20px;
+    padding:12px 25px;
+    border-radius:25px;
     text-decoration:none;
+    font-weight:bold;
+}
+
+footer{
+    background:#ff69b4;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:20px;
 }
 </style>
 </head>
@@ -75,19 +95,26 @@ footer{
 
 <header>
     <h1>🍔 Burguer Kitty 🎀</h1>
-    <p>¡Sabor irresistible con estilo Hello Kitty!</p>
+    <p>Donde cada hamburguesa está hecha con amor, sabor y calidad.</p>
 </header>
 
-<section>
-    <h2>🎀 ¿Quiénes somos?</h2>
+<nav>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#menu">Menú</a>
+    <a href="#objetivo">Objetivo</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<section id="nosotros">
+    <h2>🎀 ¿Quiénes Somos?</h2>
     <p>
         Burguer Kitty es un emprendimiento dedicado a la venta de hamburguesas
-        deliciosas y de calidad. Buscamos brindar una experiencia única a nuestros
-        clientes con un toque divertido inspirado en Hello Kitty.
+        deliciosas y de calidad. Nuestro negocio combina sabor, creatividad y
+        una excelente atención para brindar una experiencia única a nuestros clientes.
     </p>
 </section>
 
-<section>
+<section id="menu">
     <h2>🍟 Nuestro Menú</h2>
 
     <table>
@@ -123,31 +150,33 @@ footer{
     </table>
 </section>
 
-<section>
+<section id="objetivo">
     <h2>🎯 Nuestro Objetivo</h2>
 
     <p>
-        Nuestro objetivo es ofrecer hamburguesas deliciosas a precios accesibles,
-        utilizando ingredientes frescos y de calidad.
+        Ofrecer hamburguesas deliciosas a precios accesibles utilizando ingredientes
+        frescos y de calidad para satisfacer a nuestros clientes.
     </p>
 
     <p>
         Además, buscamos desarrollar habilidades de emprendimiento, atención al cliente,
-        trabajo en equipo y administración para lograr el crecimiento de nuestro negocio.
+        trabajo en equipo y administración para hacer crecer nuestro negocio.
     </p>
-    <section>
+</section>
+
+<section>
     <h2>🌟 Nuestra Misión</h2>
     <p>
-        Ofrecer hamburguesas de excelente calidad con ingredientes frescos,
-        brindando un servicio amable y una experiencia única para todos nuestros clientes.
+        Brindar productos de excelente calidad y sabor, ofreciendo una experiencia
+        agradable y un servicio amigable para todos nuestros clientes.
     </p>
 </section>
 
 <section>
     <h2>🚀 Nuestra Visión</h2>
     <p>
-        Convertirnos en una de las hamburgueserías más reconocidas de nuestra comunidad,
-        destacándonos por nuestro sabor, calidad y creatividad.
+        Convertirnos en una hamburguesería reconocida por la calidad de nuestros
+        productos, la innovación y la satisfacción de nuestros clientes.
     </p>
 </section>
 
@@ -156,33 +185,38 @@ footer{
     <ul>
         <li>✔ Calidad</li>
         <li>✔ Responsabilidad</li>
-        <li>✔ Trabajo en equipo</li>
         <li>✔ Honestidad</li>
+        <li>✔ Respeto</li>
+        <li>✔ Trabajo en equipo</li>
         <li>✔ Atención al cliente</li>
     </ul>
 </section>
 
 <section>
     <h2>🎉 Promociones</h2>
+
     <p>
-        🍔 + 🍟 + 🥤 = Combo Kitty Especial por solo <strong>$7.50</strong>
+        🍔 + 🍟 + 🥤 = <strong>Combo Kitty Especial por solo $7.50</strong>
     </p>
+
     <p>
-        Todos los viernes disfruta de un 10% de descuento en tu compra.
+        Todos los viernes ofrecemos un <strong>10% de descuento</strong>
+        en cualquier hamburguesa.
     </p>
 </section>
 
-<section>
+<section id="contacto">
     <h2>📞 Contáctanos</h2>
-    <p>📍 Dirección: Ciudad Ejemplo, Ecuador</p>
-    <p>📱 Teléfono: 099 123 4567</p>
-    <p>📧 Correo: burguerkitty@gmail.com</p>
-</section>
-</section>
 
-<section style="text-align:center;">
-    <h2>💖 Gracias por visitarnos</h2>
-    <a href="#" class="boton">¡Haz tu pedido!</a>
+    <p>📍 Ecuador</p>
+    <p>📱 099 123 4567</p>
+    <p>📧 burguerkitty@gmail.com</p>
+
+    <br>
+
+    <center>
+        <a href="#" class="boton">¡Haz tu pedido!</a>
+    </center>
 </section>
 
 <footer>
